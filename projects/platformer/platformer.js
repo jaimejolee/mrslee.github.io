@@ -44,11 +44,11 @@ $(function () {
     // You must decide the x position, y position, width, and height of the platforms
     // example usage: createPlatform(x,y,width,height)
 
-    createPlatform(100, 400, 400, 20); // 2nd platform from the top short but wide platform located 100 pixels from the left of the screen and 400 pixels from the top of the screen
-    createPlatform(700, 625, 600, 20); // 4th platform from the top lowest platform towards the bottom
+    createPlatform(100, 400, 400, 20); // 3rd platform from the top short but wide platform located 100 pixels from the left of the screen and 400 pixels from the top of the screen
+    createPlatform(700, 625, 600, 20); // 5th platform from the top lowest platform towards the bottom
     createPlatform(100, 200, 350, 20); // 1st platform from the top, almost the same as 2nd platform
-    createPlatform(425, 500, 600, 20); // 3rd platform from the top, right above lowest platform
-
+    createPlatform(425, 500, 600, 20); // 4th platform from the top, right above lowest platform
+    createPlatform(625, 300, 600, 20); // 2nd platform from the top, toward the right of the screen
 
     
     // TODO 2
@@ -57,6 +57,8 @@ $(function () {
     // Your collectable choices are 'database' 'diamond' 'grace' 'kennedi' 'max' and 'steve'; more can be added if you wish
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
+    createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
+    createCollectable("grace", 500, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
 
 
 
