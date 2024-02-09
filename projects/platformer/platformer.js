@@ -59,7 +59,10 @@ $(function () {
 
     createCollectable("steve", 500, 300, 20, 0.5); // creates a "steve" collectible at the coordinates (500, 300), falling with a high gravity of 20, and bouncing with 50% bounce
     createCollectable("grace", 500, 300); // creates a "grace" collectible at the coordinates (500, 300), falling with default gravity and bouncing with default bounce %
-
+    createCollectable("grace", 800, 300, 20, 0.5); // creates a "grace" collectible at the coordinates (800, 300), falling with default gravity and bouncing with default bounce %
+    createCollectable("database", 150, 250);
+    createCollectable("max", 1000, 150);
+    createCollectable("database", 100, 100);
 
 
     // TODO 3
